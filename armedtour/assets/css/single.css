@@ -1,0 +1,129 @@
+.single__header{
+    height: 400px;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    position: relative;
+}
+
+.single__header__wrapper{
+    height: 100%;
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 50%, rgba(255,255,255,0.6) 100%);
+   
+}
+
+.single__header__container{
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    top: 20%;
+}
+
+.single__header .entry-title{
+    font-size: 42px;
+    font-weight: 600;
+    color: #506ec6;
+    position: relative;
+    display: inline-block;
+    margin: 0 0 50px 0;
+}
+.single__header .entry-title::after{
+    content: '';
+    width: 100px;
+    height: 2px;
+    background-color: #75d481;
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+}
+.single__header p{
+    color: grey;
+    font-size: 18px;
+    max-width: 600px;
+}
+.single__container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 20px 80px 20px;
+}
+.post-thumbnail {
+    max-width: 100%;
+    
+    margin: 0 0 30px 0;
+}
+.post-thumbnail img{
+    max-width: 700px;
+    height: auto;
+}
+.entry-title-mini{
+    font-size: 28px;
+    color: #506ec6;
+    position: relative;
+    display: inline-block;
+    margin: 0 0 50px 0;
+}
+.entry-title-mini::after{
+    content: '';
+    width: 100px;
+    height: 2px;
+    background-color: #282828;
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+}
+.entry-meta{
+    margin: 0 0 20px 0;
+}
+.single__date{
+   font-size: 16px;
+    background:url(../img/date_icon.png) no-repeat;
+    background-size: 15px;
+    padding: 0 0 0px 20px;
+}
+.byline{
+     font-size: 16px;
+     color: #282828;
+     background:url(../img/person_icon.png) no-repeat;
+     background-size: 15px;
+     padding: 0 0 0px 20px;
+     transition: all 0.6s ease 0s;
+ }
+ .byline a{
+    color: #282828;
+    transition: all 0.6s ease 0s;
+ }
+
+ .byline a:hover{
+    color: #506ec6;
+ }
+ .entry-meta__slesh{
+     font-size: 18px;
+     color: #282828;
+     font-weight: 600;
+ }
+ .single-entry-content{
+    max-width: 1000px;
+ }
+@media(max-width:750px){
+    
+    .single__header{
+        height: 300px;
+    }
+    .single__header .entry-title{
+        font-size: 28px;
+    }
+    .single__header p{
+  
+        font-size: 16px;
+      
+    }
+}
+@media(max-width:650px){
+    
+    .post-thumbnail img{
+        max-width: 90%;
+        height: auto;
+    }
+}
