@@ -1,0 +1,97 @@
+.form_text{
+    height: 40px;
+    background-color:rgb(216, 216, 216);
+    border:2px solid rgb(216, 216, 216);
+    border-radius: 25px;
+    margin: 10px 0;
+    font-size: 18px;
+    padding: 0 10px;
+    max-width: 400px;
+    width: 80%;
+}
+.form_text:focus{
+    border:2px solid #75d481;
+}
+.form_date{
+    
+    height: 40px;
+    background-color:rgb(216, 216, 216);
+    border-radius: 25px;
+    margin: 20px 0px;
+    font-size: 16px;
+    padding: 0 10px;
+}
+.form_select{
+    margin: 20px 0;
+    height: 40px;
+    background-color:rgb(216, 216, 216);
+    border-radius: 25px;
+    font-size: 16px;
+    padding: 0 30px;
+}
+.form_textarea{
+    
+    background-color:rgb(216, 216, 216);
+    border:2px solid rgb(216, 216, 216);
+    border-radius: 25px;
+    margin: 10px 0;
+    font-size: 18px;
+    max-width: 400px;
+    width: 80%;
+  
+    padding: 20px 10px;
+}
+.form_textarea:focus {
+    border:2px solid #75d481;
+}
+.form_file{
+    height: 40px;
+    background-color:rgb(216, 216, 216);
+    border-radius: 25px;
+    margin: 20px 0px;
+    font-size: 16px;
+    padding: 10px 10px;
+}
+.form_file input{
+   
+    margin: 20px 0px;
+    
+}
+
+.form_accept{
+    height: 40px;
+    background-color:rgb(216, 216, 216);
+    border-radius: 25px;
+    margin: 20px 0px;
+    font-size: 16px;
+    padding: 10px 10px;
+}
+
+.form_accept a{
+    color: #506ec6;
+    transition: all 0.6s;
+}
+.form_accept a:hover{
+    color: #75d481;
+}
+.form_accept input{
+   
+    margin: 20px 0px;
+    
+}
+.form_req{
+    color: #506ec6;
+    font-size: 18px;
+}
+.form_submit{
+    background-color: #506ec6;
+    color: #fff;
+    border-radius: 25px;
+    margin: 10px 0;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 25px;
+}
+.form_submit:hover{
+    background-color: #324a92;
+}
